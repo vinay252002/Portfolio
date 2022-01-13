@@ -15,7 +15,7 @@ header{
     background-color: black;
     display: flex;
     justify-content: center;
-    margin: 25px 4rem;
+    margin: 10px 4rem;
 /* rem - font size of the root element */
 /* 1rem - 5px */
 }
@@ -43,18 +43,18 @@ li img{
 li:hover{
     z-index: 20;
 }
-section{
+.user-details{
     display: flex;
-    margin: 25px 4rem;
+    margin: 10px 4rem;
     
 }
-section .user{
+.user{
     border: 1px solid black;
     flex: 1;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    font-size: 80px;
+    font-size: 65px;
     color: black;
     background-color: white;
     font-stretch: ultra-expanded;
@@ -80,16 +80,21 @@ section .user{
     background-color: black;    
 }
 
+.user-content h3{
+     margin-top: 0;
+}
+
 .user-content p{
-    margin: 2px 20px;
+    margin: 0px 55px;
 }
 
 article img{
-    width: 8vw;
+    width: 4vw;
 }
 article{
     display: flex;
-    margin: 20px 4rem;
+    flex: 1;
+    margin: 10px 4rem;
     color: azure;
     font-size: 0.5rem;
     flex-direction: column;
@@ -103,10 +108,11 @@ article .skills-head{
     margin-left: 25px;
 }
 .skills-content{
+    font-size: 0.3rem;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
 }
 .container{
     padding: 1rem;
@@ -117,7 +123,7 @@ article .skills-head{
 .user-contact{
     display: flex;
     flex-direction: row;
-    margin: 25px 4rem;
+    margin: 10px 4rem;
     border: 1px solid black;
 }
 .user-address{
@@ -159,7 +165,9 @@ footer{
 
 
 
-
+@media (max){
+    
+}
 
 
 
