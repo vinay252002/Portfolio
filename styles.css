@@ -177,7 +177,7 @@ footer{
         height: 100vh;
         margin: 0px;
         padding: 0px;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     header{
         margin: 5px 10px;
@@ -190,6 +190,18 @@ footer{
     }
     .user-details{
         margin: 5px 10px;
+    }
+    .user-content h2{
+        font-size: 25px;
+    }
+    .user-content h3{
+        font-size: 20px;
+    }
+    .user-content p{
+        font-size: 18px;
+    }
+    .user-content{
+        padding: 1rem;
     }
     .profile-img img{
         margin: 10px 0px;
