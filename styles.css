@@ -38,7 +38,7 @@ li{
    cursor: pointer;
 }
 li img{
-    width: 2.5vw;
+    width: 30px;
 }
 li:hover{
     z-index: 20;
@@ -81,7 +81,8 @@ li:hover{
 }
 
 .user-content h3{
-     margin-top: 0;
+    text-align: center;
+     margin-top: 0px;
 }
 
 .user-content p{
@@ -89,7 +90,7 @@ li:hover{
 }
 
 article img{
-    width: 4vw;
+    width: 50px;
 }
 article{
     display: flex;
@@ -98,6 +99,7 @@ article{
     color: azure;
     font-size: 0.5rem;
     flex-direction: column;
+    
 }
 article .skills-head{
       border: 1px solid black;
@@ -113,12 +115,17 @@ article .skills-head{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x: auto;
+}
+.skills-content::-webkit-scrollbar{
+    width: 0px;
 }
 .container{
     padding: 1rem;
     margin-right: 2rem;
     text-align: center;
     color: #000;
+    margin: 0px;
 }
 .user-contact{
     display: flex;
@@ -165,8 +172,72 @@ footer{
 
 
 
-@media (max){
-    
+@media only screen and (max-width: 500px){
+    body{
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    header{
+        margin: 5px 10px;
+    } 
+    ul{
+        display: flex;
+        justify-content: space-around;
+        margin: 0px;
+        padding: 20px 0px ;
+    }
+    .user-details{
+        margin: 5px 10px;
+    }
+    .profile-img img{
+        margin: 10px 0px;
+    }
+    .name h1{
+        margin: 0px;
+        margin: 20px 0px;
+        text-align: center;
+        font-size: 45px;
+    }
+    .brake{
+        display: none;
+    }
+    .profile-img{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .user-content{
+        display: none;
+    }
+    article{
+        margin: 5px 10px;
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto;
+    }
+    .user-contact{
+        margin: 5px 10px;
+    }
+    .user-address p{
+        font-size: 12px;
+    }
+    .user-address h3{
+        font-size: 20px;
+    }
+    .user-contact p{
+        font-size: 12px;
+    }
+    .user-contact h3{
+        font-size: 20px;
+    }
+    footer{
+        margin: 5px 10px;
+    }
+
+
+
 }
 
 
