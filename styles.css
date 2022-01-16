@@ -177,7 +177,7 @@ footer{
         height: 100vh;
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     header{
         margin: 5px 10px;
@@ -208,9 +208,9 @@ footer{
         display: flex;
         justify-content: center;
     }
-    .user-content{
+    /* .user-content{
         display: none;
-    }
+    } */
     article{
         margin: 5px 10px;
         display: flex;
@@ -219,6 +219,7 @@ footer{
     }
     .user-contact{
         margin: 5px 10px;
+        
     }
     .user-address p{
         font-size: 12px;
@@ -235,7 +236,12 @@ footer{
     footer{
         margin: 5px 10px;
     }
-
+    .user-details{
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
 
 
 }
