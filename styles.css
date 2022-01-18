@@ -90,6 +90,12 @@ li:hover{
     margin: 0px 55px;
 }
 
+.user-content input{
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    margin-top: 25px;
+    cursor: pointer;
+}
 
 article img{
     width: 50px;
@@ -194,15 +200,15 @@ footer{
         margin: 5px 10px;
     }
     .user-content h2{
-        font-size: 25px;
+        font-size: 23px;
         margin: 5px 20px;
     }
     .user-content h3{
-        font-size: 20px;
+        font-size: 18px;
         margin: 5px 20px;
     }
     .user-content p{
-        font-size: 15px;
+        font-size: 13px;
         margin: 5px 20px;
     }
     .user-content input{
