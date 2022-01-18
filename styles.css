@@ -90,6 +90,7 @@ li:hover{
     margin: 0px 55px;
 }
 
+
 article img{
     width: 50px;
 }
@@ -202,7 +203,14 @@ footer{
     }
     .user-content p{
         font-size: 15px;
-        margin: 8px 5px 20px;
+        margin: 5px 20px;
+    }
+    .user-content input{
+        font-size: 10px;
+        padding: 5px 10px ;
+        margin: 0px;
+        border:2px solid transparent;
+        border-radius: 25px;
     }
     .user-content{
         padding: 1rem;
